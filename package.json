@@ -1,7 +1,7 @@
 {
-  "name": "nx-archviz",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@rikrogaar/nx-archviz",
+  "version": "0.0.1",
+  "description": "A tool to visualize the NX graph",
   "homepage": "https://github.com/RikRogaar/nx-archviz#readme",
   "bugs": {
     "url": "https://github.com/RikRogaar/nx-archviz/issues"
@@ -11,11 +11,15 @@
     "url": "git+https://github.com/RikRogaar/nx-archviz.git"
   },
   "license": "ISC",
-  "author": "",
+  "author": "Rik Rogaar",
   "type": "commonjs",
   "main": "index.js",
+  "bin": {	
+    "nx-archviz": "./dist/cli.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc",
+    "start": "ts-node src/cli.ts"
   },
   "devDependencies": {
     "@types/node": "^25.5.0",
