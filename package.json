@@ -1,0 +1,25 @@
+{
+  "name": "nx-archviz",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/RikRogaar/nx-archviz#readme",
+  "bugs": {
+    "url": "https://github.com/RikRogaar/nx-archviz/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RikRogaar/nx-archviz.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
